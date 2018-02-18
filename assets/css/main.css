@@ -464,7 +464,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #aaaaaa;
+		background: #aaaba8;
 	}
 
 		#contact form {
@@ -483,7 +483,7 @@
 		}
 
 			#contact .column.social {
-				background: #333333;
+				background: #2F2E33;
 				padding-left: 1.0em;
 				padding-right: 1.0em;
 				width: 63%;
@@ -1397,7 +1397,7 @@
 /* Menu */
 
 	#nav {
-		background: #1c1c1c;
+		background: #3A5199;
 		z-index: 10002;
 		position: relative;
 		width: 4em;
@@ -1562,12 +1562,12 @@
 /* Main */
 
 	#main {
-		background: #f1f1f1;
+		background: #D5D6D2;
 		width: 100%;
 	}
 
 		#main #header {
-			background: #e6e6e6;
+			background: #aaaba8;
 			padding: 1.15em 3.5em;
 			text-align: right;
 		}
@@ -1596,14 +1596,14 @@
 /* Footer */
 
 	#footer {
-		padding: 4em 0 2em 0;
-		background: #f2f2f2;
+		padding: 1em 0 0em 0;
+		background: #D5D6D2;
 	}
 
 		#footer .copyright {
-			color: #bfbfbf;
+			color: #000000;
 			font-size: 0.9em;
-			margin: 0 0 2em 0;
+			margin: 0 0 1em 0;
 			padding: 0 1em;
 			text-align: center;
 		}
