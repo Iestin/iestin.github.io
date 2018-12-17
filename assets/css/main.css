@@ -355,7 +355,7 @@
 		button:hover,
 		.button:hover {
 			color: #FFF;
-			background: #61892F;
+			background: #FFF;
 		}
 
 		input[type="submit"].alt,
