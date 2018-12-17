@@ -355,7 +355,7 @@
 		button:hover,
 		.button:hover {
 			color: #FFF;
-			background: #FFF;
+			background: #61892F;
 		}
 
 		input[type="submit"].alt,
@@ -486,7 +486,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #6B6E70;
+		background: #FFF;
 	}
 
 		#contact form {
