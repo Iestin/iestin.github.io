@@ -1,61 +1,64 @@
-Aerial by HTML5 UP
+Eventually by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-This is Aerial, a single page, single screen responsive site template. Real simple.
-Makes heavy use of CSS animation (something I've been messing with a lot lately).
-Should work well as a landing page that just directs folks to your stuff elsewhere
-on the www. Sass sources are also included, so if you've never used Sass and you're
-interested in giving it a try, head on over to sass-lang.com (and if not, you can
-safely delete the "sass/" folder).
+Just a simple placeholder template for your kickass app/product/startup/whatever until it
+launches. Includes an email signup form and a cool slideshow background (more on both below).
 
-The scrolling mountainous background was derived from "Icefields" by Ryan Schroeder,
-a talented photographer from Vancouver who graciously released it on Unsplash under
-the CC0 license. Be sure to check out his other stuff over at flickr (link below)
-as well as all the other kickass CC0-licensed images at Unsplash (unsplash.com).
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-Questions/comments/issues = just email or find me on Twitter. Have fun!
+(* = not included)
 
 AJ
 aj@lkn.io | @ajlkn
 
 
-The Scrolling Background:
+Signup Form:
 
-	This relies entirely on CSS to do its thing, which is cool, but that makes
-	changing it a bit weird/tricky at first. You can still use pretty much any image
-	you want, but for best results make sure yours is:
+	The signup form won't actually do anything (other than report back with a "thank you" message)
+	until you tie it to either a third party service (eg. MailChimp) or your own hosted solution.
+	In either case, there are two ways to go:
 
-	- Horizontally tileable.
-	- Wide and short.
-	- About 1500px wide.
-	- Fades to a solid color either at the top of bottom (which is used to fill
-	  the empty space above or below your image).
+	1. The conventional (non-AJAX) way, which pretty much comes down to pointing the form's "action"
+	attribute to your service/script URL. If you go this route, remove the entire "Signup Form" code
+	block from assets/js/main.js (since it's not needed for this approach).
 
-	Now, there are two ways to use it: with CSS, or with Sass:
+	-or-
 
-	CSS:
+	2. The AJAX way. How you set this up is largely dependent on the service/solution you're using
+	so you'll need to consult their/its documentation. However, I have included some basic code
+	(under "Signup Form" in assets/js/main.js) that will at least let you interact with the
+	form itself.
 
-		Look for this line in css/style.css (line 108 as of this writing):
 
-			background: #348cb2 url("images/bg.jpg") bottom left;
+Slideshow Background:
 
-		and use it to set the page background color, URL, and placement of
-		your image. It should be as close to 1500px wide as you can get it.
+	This is pretty straightforward, but there are two JS settings you'll want to be aware of
+	(found under "Slideshow Background" in assets/js/main.js):
 
-	Sass:
+	images
 
-		Set the value of $bg to the page background color, URL, and placement
-		of your image. Change $bg-width if your image is something other than
-		1500px wide.
+		The list of images to cycle through, given in the following format:
+
+			'url': 'alignment'
+
+		Where 'url' is the image (eg. 'images/foo.jpg', 'http://somewhere.else/foo.jpg'), and
+		'alignment' is how the image should be vertically aligned ('top', 'center', or 'bottom').
+
+		Note: Browsers that don't support CSS transitions (like IE<=9) will only see the first image.
+
+	delay
+
+		How long to wait between transitions (in ms). Note that this must be at least twice as long as
+		the transition speed itself (currently 3 seconds).
 
 
 Credits:
 
-	Background Image:
-		Ryan Schroeder via Unsplash (unsplash.com - CC0 licensed)
-			"Icefields" (flickr.com/photos/ryanschroeder/11876741703)
+	Demo Images:
+		Unsplash (unsplash.com)
 
 	Icons:
 		Font Awesome (fontawesome.io)
