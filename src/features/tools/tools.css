@@ -11,6 +11,7 @@
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: flex-start;
     align-items: center;
+    margin: 8px 0px;
 }
 
 .tools-infoBox {

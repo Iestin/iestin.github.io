@@ -34,6 +34,10 @@
     font-family: 'Lexend Deca', 'Verdana', sans-serif;
 }
 
+.content-div > img {
+    margin: 16px 16px 64px 16px;
+}
+
 .content-div > .section {
     max-width: 700px;
     width: 100%;
