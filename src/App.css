@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca');
+
+.App {
+    background-color: hsl(0, 0%, 3%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.background-div {
+    background: hsl(0, 0%, 0%);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+.content-div {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    color: hsla(0, 0%, 70%);
+    background-color: hsla(0, 0%, 3%, 0.5);
+    padding: 25px;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', 'Verdana', sans-serif;
+}
+
+.content-div > .section {
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.content-div > .section > .section-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 100%, 0.9);
+    padding-bottom: 15px;
+    border-bottom: 1px solid hsl(188, 100%, 50%);
+    margin-bottom: 10px;
+}
+
+.content-div > .section > .section-header > h1 {
+    font-size: 36px;
+    font-family: 'Lexend Deca', 'Verdana', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.content-div > .section > .section-body {
+    width: 100%;
+    line-height: 30px;
+    padding: 0px 25px;
+    box-sizing: border-box;
+    text-align: left;
+    color: hsl(0, 0%, 100%, 0.75);
+}
+
+.content-div > .section > .section-body > ul {
+    padding-inline-start: 10px;
+}

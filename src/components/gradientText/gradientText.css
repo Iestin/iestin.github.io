@@ -1,0 +1,14 @@
+.gradient-text * {
+    background-color: hsl(69, 252, 152, 1);
+    background-image: linear-gradient(
+        90deg,
+        hsl(188, 100%, 50%) 0%,
+        hsl(147, 97%, 63%) 100%
+    );
+    background-clip: text;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}

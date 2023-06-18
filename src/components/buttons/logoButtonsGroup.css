@@ -1,0 +1,19 @@
+button {
+    max-width: 75px;
+    max-height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    padding: 0px;
+    background-color: hsla(0, 0%, 100%, 0);
+    color: white;
+    border: none;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+button.active {
+    opacity: 1;
+}
