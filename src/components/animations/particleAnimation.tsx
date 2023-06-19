@@ -1,7 +1,8 @@
 import { useRef, useEffect, ReactNode } from 'react';
 
 type ParticleAnimationProps = {
-    isRandomColors?: boolean;
+    randomFillColor?: boolean;
+    randomStrokeColor?: boolean;
     fillColor?: string;
     strokeColor?: string;
     strokeWidth?: number;
@@ -9,7 +10,8 @@ type ParticleAnimationProps = {
 };
 
 export function ParticleAnimation({
-    isRandomColors = true,
+    randomFillColor = false,
+    randomStrokeColor = false,
     fillColor = 'hsl(0, 0%, 100%)',
     strokeColor = 'hsl(0, 0%, 100%)',
     strokeWidth = 1,
@@ -49,12 +51,14 @@ export function ParticleAnimation({
                 this.x = canvas ? canvas.width * Math.random() : 1;
                 this.y = canvas ? canvas.height * Math.random() : 1;
                 this.size = Math.random() * sizeMultiplier + 1;
-                this.fillColor = isRandomColors
+                this.fillColor = randomFillColor
                     ? `hsl(${Math.random() * 360}, 100%, 50%)`
                     : fillColor;
-                this.strokeColor = strokeColor;
+                this.strokeColor = randomStrokeColor
+                    ? `hsl(${Math.random() * 360}, 100%, 50%)`
+                    : strokeColor;
                 this.strokeWidth = strokeWidth;
-                this.speed = Math.random();
+                this.speed = Math.random() + 0.1;
                 this.angle = Math.random() * 360;
             }
 
@@ -103,7 +107,14 @@ export function ParticleAnimation({
             window.removeEventListener('resize', resizeHandler);
             cancelAnimationFrame(animationId);
         };
-    }, [isRandomColors, fillColor, strokeColor, strokeWidth, sizeMultiplier]);
+    }, [
+        fillColor,
+        strokeColor,
+        strokeWidth,
+        sizeMultiplier,
+        randomFillColor,
+        randomStrokeColor,
+    ]);
 
     return <canvas ref={canvasRef} />;
 }

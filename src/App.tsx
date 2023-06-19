@@ -7,9 +7,9 @@ function App() {
         <div className="App">
             <div className="background-div">
                 <ParticleAnimation
-                    isRandomColors={false}
-                    fillColor="hsl(0, 0%, 0%)"
-                    strokeColor="hsl(0, 0%, 25%)"
+                    fillColor="hsla(0, 0%, 0%, 0)"
+                    strokeColor="hsla(0, 0%, 100%, 0.25)"
+                    sizeMultiplier={50}
                 />
             </div>
             <div className="content-div">

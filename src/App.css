@@ -11,7 +11,7 @@
 }
 
 .background-div {
-    background: hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 3%);
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -28,7 +28,7 @@
     align-items: center;
     font-size: 16px;
     color: hsla(0, 0%, 70%);
-    background-color: hsla(0, 0%, 3%, 0.5);
+    background-color: hsla(0, 0%, 3%, 0.75);
     padding: 25px;
     box-sizing: border-box;
     font-family: 'Lexend Deca', 'Verdana', sans-serif;
