@@ -27,7 +27,7 @@ export function LogoButtonsGroup({
                     className={activeButtonId === button.id ? 'active' : ''}
                     onClick={() => handleClick(button)}
                 >
-                    <img src={button.src} alt={button.alt} />
+                    <img src={button.src} alt={`${button.alt} Logo`} />
                     <p>{button.alt}</p>
                 </button>
             ))}

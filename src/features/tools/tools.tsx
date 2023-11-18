@@ -6,8 +6,8 @@ import './tools.css';
 enum ButtonID {
     Aurelia = 'aurelia',
     React = 'react',
-    NodeJS = 'nodeJS',
-    Typescript = 'typescript',
+    JavaScript = 'JavaScript',
+    TypeScript = 'TypeScript',
     AWS = 'aws',
     ElasticSearch = 'elasticSearch',
     Docker = 'docker',
@@ -40,14 +40,14 @@ export function Tools() {
             alt: 'React',
         },
         {
-            id: ButtonID.NodeJS,
-            src: '/images/logos/nodeJsLogo.png',
-            alt: 'Node JS',
+            id: ButtonID.JavaScript,
+            src: '/images/logos/javaScriptLogo.png',
+            alt: 'JavaScript',
         },
         {
-            id: ButtonID.Typescript,
-            src: '/images/logos/typescriptLogo.png',
-            alt: 'Typescript',
+            id: ButtonID.TypeScript,
+            src: '/images/logos/typeScriptLogo.png',
+            alt: 'TypeScript',
         },
         {
             id: ButtonID.AWS,
@@ -75,13 +75,13 @@ export function Tools() {
             title: 'React',
             experience: '2+ years experience',
         },
-        [ButtonID.NodeJS]: {
-            title: 'Node.js',
+        [ButtonID.JavaScript]: {
+            title: 'JavaScript',
             experience: '4+ years experience',
         },
-        [ButtonID.Typescript]: {
+        [ButtonID.TypeScript]: {
             title: 'TypeScript',
-            experience: '1 year experience',
+            experience: '1+ year experience',
         },
         [ButtonID.AWS]: {
             title: 'AWS',

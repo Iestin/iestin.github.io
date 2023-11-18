@@ -13,20 +13,20 @@ export function Introduction() {
                 </p>
 
                 <p>
-                    &ensp; When I'm not in front of my computer, you might find
-                    me gaming on my PC, exploring the great outdoors and
-                    photographing wildlife, whipping up new recipes in the
-                    kitchen, or creating music. I'm also passionate about
-                    graphic design, and while I still have a lot to learn, the
-                    skills I've developed have been invaluable in my career.
+                    &ensp; When I'm not programming, you might find me gaming on
+                    my PC, exploring the great outdoors and photographing
+                    wildlife, whipping up new recipes in the kitchen, or
+                    creating music. I'm also passionate about graphic design,
+                    and while I still have a lot to learn, the skills I've
+                    developed have been invaluable in my career.
                 </p>
 
                 <p>
                     &ensp; By pursuing such a variety of interests, I've
-                    discovered that they all inform and enrich each other in
-                    unexpected ways. Whether I'm experimenting with software
-                    development or learning an instrument, I approach every
-                    challenge with the same curiosity and determination.
+                    discovered that a lot of them complement and enhance each
+                    other in unexpected ways. Whether I'm experimenting with
+                    software development or learning an instrument, I approach
+                    every challenge with the same curiosity and determination.
                 </p>
             </div>
         </div>

@@ -15,10 +15,9 @@ function App() {
             <div className="content-div">
                 <Greeting />
                 <img
+                    className="rounded-portrait"
                     src="/images/portrait.png"
                     alt="Portrait of Me"
-                    width="200"
-                    height="200"
                 />
                 <Introduction />
                 <SoftwareDevelopment />
