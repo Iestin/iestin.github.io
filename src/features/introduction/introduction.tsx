@@ -6,27 +6,19 @@ export function Introduction() {
             </div>
             <div className="section-body">
                 <p>
-                    &ensp; Hello and welcome to my site! I'm Iestin, a driven
-                    and creative senior full-stack software developer. While
-                    coding is my bread and butter, I also have a diverse range
-                    of interests that keep me inspired and energized.
+                    &ensp; Hello I'm Iestin, and welcome to my site! I'm
+                    currently a Senior Full-Stack Software Developer. As you can
+                    imagine, I spend a lot of time programming, not only during
+                    work but also in my free time. I'm always looking for new
+                    projects to work on and new technologies to learn.
                 </p>
 
                 <p>
                     &ensp; When I'm not programming, you might find me gaming on
                     my PC, exploring the great outdoors and photographing
                     wildlife, whipping up new recipes in the kitchen, or
-                    creating music. I'm also passionate about graphic design,
-                    and while I still have a lot to learn, the skills I've
-                    developed have been invaluable in my career.
-                </p>
-
-                <p>
-                    &ensp; By pursuing such a variety of interests, I've
-                    discovered that a lot of them complement and enhance each
-                    other in unexpected ways. Whether I'm experimenting with
-                    software development or learning an instrument, I approach
-                    every challenge with the same curiosity and determination.
+                    creating music. That really just scratches the surface, as I
+                    tend to pick up all sorts of hobbies and interests.
                 </p>
             </div>
         </div>

@@ -69,15 +69,15 @@ export function Tools() {
     const infoBoxes: { [key in ButtonID]: InfoBox } = {
         [ButtonID.Aurelia]: {
             title: 'Aurelia',
-            experience: '4+ years experience',
+            experience: '5+ years experience',
         },
         [ButtonID.React]: {
             title: 'React',
-            experience: '2+ years experience',
+            experience: '3+ years experience',
         },
         [ButtonID.JavaScript]: {
             title: 'JavaScript',
-            experience: '4+ years experience',
+            experience: '5+ years experience',
         },
         [ButtonID.TypeScript]: {
             title: 'TypeScript',
@@ -85,7 +85,7 @@ export function Tools() {
         },
         [ButtonID.AWS]: {
             title: 'AWS',
-            experience: '4+ years experience',
+            experience: '5+ years experience',
             description: (
                 <>
                     <p style={{ fontWeight: 'bold' }}>Services Include:</p>
@@ -104,11 +104,11 @@ export function Tools() {
         },
         [ButtonID.ElasticSearch]: {
             title: 'ElasticSearch',
-            experience: '4+ years experience',
+            experience: '5+ years experience',
         },
         [ButtonID.Docker]: {
             title: 'Docker',
-            experience: '4+ years experience',
+            experience: '5+ years experience',
         },
     };
 

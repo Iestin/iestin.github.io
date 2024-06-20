@@ -10,13 +10,13 @@ export function SoftwareDevelopment() {
                 <ul>
                     <li>Graduated with a B.S. in Computer Science.</li>
                     <li>
-                        Full-stack software developer with 4+ years of
+                        Full-stack software developer with 5+ years of
                         experience.
                     </li>
                     <li>
                         Specializes in both front-end and back-end development,
-                        with expertise in React, JavaScript, DynamoDB, ect.
-                        (check out below for details)
+                        with expertise in React, JavaScript, AWS, ect. (check
+                        out below for details)
                     </li>
                     <li>
                         Experience with database design and management for
